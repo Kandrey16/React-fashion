@@ -1,0 +1,12 @@
+:root {
+  --white: #fff;
+  --light-gray: #F4F6F5;
+  --black: #000;
+  --yellow: #EBD96B;
+  --dark-yellow: #F4F6F5;
+  --poppins-fontfamily: "Poppins", sans-serif;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}/*# sourceMappingURL=common.css.map */

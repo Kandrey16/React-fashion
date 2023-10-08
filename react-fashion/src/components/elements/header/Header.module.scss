@@ -1,0 +1,54 @@
+.header {
+    padding: 46px 0 0 0;
+
+    .logo {
+        display: flex;
+        align-items: center;
+        column-gap: 13px;
+
+        span {
+            height: 60px;
+            color: var(--black);
+            font-family: Poppins;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 1.5;
+            letter-spacing: 1.2px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+    }
+
+    .nav {
+        display: flex;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.22px;
+
+        ul {
+            display: flex;
+            align-items: center;
+            column-gap: 55px;
+
+            li {
+
+                .nav_btn {
+                    padding: 13px 22px 17px;
+                    border-radius: 7px;
+                    background: #000;
+                    color: var(--white);
+                }
+
+                a {
+                    text-decoration: none;
+                    color: var(--black);
+                }
+            }
+        }
+    }
+}
+

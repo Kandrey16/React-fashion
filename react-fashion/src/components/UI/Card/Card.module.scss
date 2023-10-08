@@ -1,0 +1,50 @@
+.card {
+    padding: 84px 0 0 0;
+    position: relative;
+    width: 384px;
+    border-radius: 20px;
+
+    img {
+        max-width: 100%;
+        border-radius: 20px;
+
+    }
+
+    .card_description {
+        position: relative;
+
+        .card_name {
+            padding: 28px 0 0 0;
+            color: #000;
+            font-family: Poppins;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            letter-spacing: -1.28px;
+        }
+
+        .card_explore {
+            color: #7F7F7F;
+            font-family: Poppins;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 50px;
+            letter-spacing: -0.96px;
+        }
+
+        ::after {
+            content: "";
+            background-image: url(../../../images/icons/arrow.svg);
+            width: 35px;
+            height: 25px;
+            background-size: contain; /* Используем background-size: contain; для сохранения изначального размера SVG */
+            display: block; /* Используем блочное отображение для псевдоэлемента */
+            position: absolute; /* Абсолютное позиционирование псевдоэлемента */
+            top: 50%; /* Позиционируем псевдоэлемент по вертикали на середину */
+            right: 0; /* Позиционируем псевдоэлемент по горизонтали на середину */
+            transform: translate(-50%, -50%); /* Смещаем псевдоэлемент на половину его ширины и высоты назад, чтобы точно расположить его по середине */
+
+        }
+    }
+}
